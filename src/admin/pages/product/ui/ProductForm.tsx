@@ -114,10 +114,6 @@ export const ProductForm = ({ title, subtitle, product, onSubmit, isActiveButton
         e.target.value = '';
     };
 
-    const handleInputChange = (field: keyof Product, value: string | number) => {
-        // setProduct((prev) => ({ ...prev, [field]: value }));
-    };
-
 
 
     return (
